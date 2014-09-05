@@ -1,0 +1,60 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    min-width: 940px;
+}
+h1 {
+    padding: 20px;
+}
+span {
+    padding: 20px;
+    font-size: 20px;
+}
+#game_container {
+    width: 50%;
+    margin: 30px auto 0 10%;
+    min-width: 350px;
+}
+.box {
+    width: 14%;
+    height: auto;
+    background: #1700C4;
+    display: inline-block;
+    float: left;
+}
+.box:hover {
+    background: cornflowerblue;
+}
+.game_over .box {
+    background: #1700C4;
+}
+.disc_holder {
+    width:40px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.message_center {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 20px;
+}
+.message_center .heading {
+    color: #999;
+}
+.messages span {
+    padding: 10px 20px;
+    display: block;
+}
+.error {
+    color: red;
+}
+
+.won {
+    color: green;
+}
